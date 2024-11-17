@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Consolas, 'Courier New', monospace;
+  background-color: lightgray;
+    
+    
+}
+
+header{
+    width: 100%;
+    background-color:  whiteS;
+
+}
+h1{    
+color: white;
+font-size: 2.5rem;
+max-width: fit-content;
+margin-left: auto;
+margin-right: auto;
+
+}
+#ul1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu ul { 
+    font-size: 2rem;
+    list-style: none;
+    display: flex; 
+    background-color: rgba(0,0,0,0.7);
+    flex-wrap: wrap;
+  }
+  
+  .menu ul li {
+    margin: 0;
+  }
+  
+  .menu ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+   
+    background-color: #222222;
+  }
+  .cont{
+  background-color: rgba(0, 0, 0, 0.5); /* 0.5 is the opacity level (0 is fully transparent, 1 is fully opaque) */
+    display:  flex;
+    justify-content: center;
+    cursor: pointer;
+   
+    margin:10rem 10rem 10rem 10rem;
+
+  }
+  .box_1,.box_2{
+    font-size: 2rem;
+  }
+ div:hover{
+  background-color: red ;
+}
